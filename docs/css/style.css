@@ -2561,7 +2561,7 @@ img {
         border-radius: 0%;
         -webkit-border-radius: 0%;
         -ms-border-radius: 0%;
-        bottom: 0;
+        bottom: 100px;
         margin: auto; }
     .schedule-listing .schedule-slot-special .schedule-slot-speakers {
       position: absolute;
