@@ -3423,7 +3423,19 @@ img {
   background: #25cd44;
 }
 .ts-sponsors .sponsor-title.yello-bg::before {
-  background: #ffb339;
+  background: #FFD700;
+}
+.ts-sponsors .sponsor-title.silver-bg::before {
+  background: #C0C0C0;
+}
+.ts-sponsors .sponsor-title.bronze-bg::before {
+  background: #CD7F32;
+}
+.ts-sponsors .sponsor-title.supporters-bg::before {
+  background: #508ad6;
+}
+.ts-sponsors .sponsor-title.media-bg::before {
+  background: #ae5ef0;
 }
 .ts-sponsors .sponsors-logo {
   min-height: 125px;
