@@ -1096,3 +1096,36 @@ span.flatpickr-weekday {
 input[type=radio]:checked + span::after {
   opacity: 1;
 }/*# sourceMappingURL=style.css.map */
+
+
+.form-control {
+  height: 50px;
+  padding: 15px 30px;
+  border-radius: 0;
+  font-size: 14px;
+  resize: none;
+}
+.form-control:focus {
+  color: black;
+  box-shadow: none;
+}
+
+.form-control {
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  margin-bottom: 20px;
+}
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: #00ab6c;
+}
+.form-control.message-box {
+  height: 150px;
+  color: black;
+  resize: none;
+}
