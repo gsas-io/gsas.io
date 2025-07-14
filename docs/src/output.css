@@ -4152,9 +4152,9 @@ video {
   background-image: url('../assets/img/news-bg.jpg');
 }
 
-.before\:bg-\[url\(\'\.\.\/assets\/img\/sponsors-bg\.jpg\'\)\]::before {
+.before\:bg-\[url\(\'\.\.\/assets\/img\/sponsors-bgcs\.jpg\'\)\]::before {
   content: var(--tw-content);
-  background-image: url('../assets/img/sponsors-bg.jpg');
+  background-image: url('../assets/img/sponsors-bgcs.jpg');
 }
 
 .before\:bg-\[url\(\'\.\.\/assets\/img\/testimonial-bg\.png\'\)\]::before {
