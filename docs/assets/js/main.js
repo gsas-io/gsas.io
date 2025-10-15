@@ -119,6 +119,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const etSidebarCloseBtn = document.querySelector(".et-sidebar-close-btn");
     const etOverlay = document.querySelector(".et-overlay");
 
+    if (etSidebar) {
+        etSidebar.addEventListener('click', (e) => {
+            const link = e.target.closest('a');
+            if (link) {
+                etSidebar.classList.remove('active');
+                etOverlay?.classList.remove('active');
+            }
+        });
+    }
+
     if (etSidebarOpenBtn) {
         etSidebarOpenBtn.addEventListener("click", (e) => {
             e.stopPropagation();
